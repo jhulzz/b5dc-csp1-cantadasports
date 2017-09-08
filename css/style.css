@@ -1,0 +1,14 @@
+.navbar {
+	border-radius: 0;
+	/*background-image: none;
+	background-color: #ccc;
+	border-color: #ccc;*/
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+div.page-header > h1 {
+	font-family: 'Playfair Display', serif;
+}
