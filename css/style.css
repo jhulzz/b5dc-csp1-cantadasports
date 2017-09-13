@@ -1,14 +1,426 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .navbar {
 	border-radius: 0;
-	/*background-image: none;
-	background-color: #ccc;
-	border-color: #ccc;*/
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.2em;
 }
+
+.navbar:hover {
+	cursor: pointer;
+}
+
+a.list-group-item:hover {
+	cursor: pointer;
+	background-color: #67A343; /*green*/
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
 
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto', Tahoma, sans-serif;
+	background-image: url('../img/sports.png');
+	background-size: repeat-x;
 }
 
-div.page-header > h1 {
-	font-family: 'Playfair Display', serif;
+footer {
+	font-family: 'Roboto', Tahoma, sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-family: 'Lalezar', sans-serif;
+	
+}
+
+.enrollbtn {
+	margin-top: 5px;
+	/*float: right;*/
+}
+
+.aboutbtn {
+	margin: 20px 5px;
+}
+
+.alt_br {
+	margin-top: 50px;
+}
+
+
+#search_sec {
+	float: right;
+	padding-top: 6px;
+	margin: 2px;
+}
+
+#banner_h {
+	background-image: url("../img/bn_header_1.png");
+	background-size: cover;
+	height: 391px;
+}
+
+#banner_2 {
+	background-image: url("../img/bn_header_2.png");
+	background-size: cover;
+	height: 391px;
+}
+
+#banner_3 {
+	background-image: url("../img/bn_header_3.png");
+	background-size: cover;
+	height: 391px;
+}
+
+#banner_4 {
+	background-image: url("../img/bn_header_4.png");
+	background-size: cover;
+	height: 391px;
+}
+
+#banner_5 {
+	background-image: url("../img/bn_header_5.png");
+	background-size: cover;
+	height: 391px;
+}
+
+.jumbotron > h1 {
+	color: white;
+}
+
+.jumbotron > p {
+	color: #fffff0; /*Ivory*/
+}
+
+/*social media icons*/
+.fa-stack:hover {
+    color: darkgrey;
+}
+
+.fa-stack {
+    color: green;
+}
+
+/*title per panel*/
+h3 > .panel-heading {
+	font-family: 'Lalezar', sans-serif;
+}
+
+/* Facilities page*/
+#pinBoot {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+.pintlike {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.white-panel {
+  position: absolute;
+  background: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.white-panel h1 {
+  font-size: 1em;
+}
+
+.white-panel h1 a {
+  color: #67A343; /*green*/
+}
+
+.white-panel:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  margin-top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.title_facilities {
+	color: #67A343; /*green*/
+}
+
+
+/*footer*/
+
+.ft-logo {
+	width: 150px;
+	height: auto;
+}
+
+.footer-distributed {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/* Footer left with company logo */
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+/* CSC logo */
+
+.footer-distributed h3 {
+	color: #fff;
+	font: normal 36px 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.footer-distributed h3 span {
+	color:  #67A343; /*green*/
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+	color:  #fff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a {
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name {
+	color:  #8f9296; /*grey*/
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+}
+
+.footer-distributed .footer-center i {
+	background-color:  #33383b; /*dark grey*/
+	color: #fff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #fff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span {
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a {
+	color:  #67A343; /*green*/
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f; /*grey*/
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-company-about p .list_htgt {
+	font-size: smaller;
+	font-weight: normal;
+	color: #fff;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b; /*dark grey*/
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+/*mobile*/
+@media only screen and (max-width: 400px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+	#logo_area {
+		text-align: center;
+	}
+
+	#nav_contents {
+		text-align: center;
+	}
+
+
+	/*maincontainer-fluid > .jumbotron {
+	 	display: block;
+  	 	max-width: 100%;
+     	height: auto;
+	}*/
+
+}
+
+/*tablet*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	/*#sm_area {
+		float: right;
+	}*/
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+	#logo_area {
+		text-align: center;
+	}
+
+	#nav_contents {
+		text-align: center;
+	}
+
+	.enrollbtn {
+		text-align: center;
+	}
+
+	#hvp_c {
+		width: 100%;
+		display: inline-block;
+		height: auto;
+	}
+
+}
+
+/*laptop or desktop*/
+
+@media only screen and (min-width: 961px) {
+
+	
+
 }
