@@ -1,1 +1,3 @@
 Gitlab URL: https://gitlab.com/tuitt/students/batch5day/julie/091317-b5dc-csp1-cantadasports.git
+Github URL: https://github.com/jhulzz/b5dc-csp1-cantadasports.git
+https://jhulzz.github.io/b5dc-csp1-cantadasports/

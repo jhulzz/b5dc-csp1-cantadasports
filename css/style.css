@@ -273,17 +273,17 @@ h3 > .panel-heading {
 
 .footer-distributed .footer-center p a {
 	color:  #67A343; /*green*/
-	text-decoration: none;;
+	text-decoration: none;
 }
 
 
 /* Footer Right */
 
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
 	width: 20%;
 }
 
-.footer-distributed .footer-company-about{
+.footer-distributed .footer-company-about {
 	line-height: 20px;
 	color:  #92999f; /*grey*/
 	font-size: 13px;
@@ -291,7 +291,7 @@ h3 > .panel-heading {
 	margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
+.footer-distributed .footer-company-about span {
 	display: block;
 	color:  #fff;
 	font-size: 14px;
@@ -299,7 +299,7 @@ h3 > .panel-heading {
 	margin-bottom: 20px;
 }
 
-.footer-distributed .footer-company-about span{
+.footer-distributed .footer-company-about span {
 	display: block;
 	color:  #fff;
 	font-size: 14px;
@@ -313,11 +313,11 @@ h3 > .panel-heading {
 	color: #fff;
 }
 
-.footer-distributed .footer-icons{
+.footer-distributed .footer-icons {
 	margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
+.footer-distributed .footer-icons a {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -338,20 +338,20 @@ h3 > .panel-heading {
 /*mobile*/
 @media only screen and (max-width: 400px) {
 
-	.footer-distributed{
+	.footer-distributed {
 		font: bold 14px sans-serif;
 	}
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
+	.footer-distributed .footer-right {
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
 
-	.footer-distributed .footer-center i{
+	.footer-distributed .footer-center i {
 		margin-left: 0;
 	}
 
@@ -363,37 +363,26 @@ h3 > .panel-heading {
 		text-align: center;
 	}
 
-
-	/*maincontainer-fluid > .jumbotron {
-	 	display: block;
-  	 	max-width: 100%;
-     	height: auto;
-	}*/
-
 }
 
 /*tablet*/
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-	/*#sm_area {
-		float: right;
-	}*/
-
-	.footer-distributed{
+	.footer-distributed {
 		font: bold 14px sans-serif;
 	}
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
+	.footer-distributed .footer-right {
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
 
-	.footer-distributed .footer-center i{
+	.footer-distributed .footer-center i {
 		margin-left: 0;
 	}
 
@@ -417,10 +406,7 @@ h3 > .panel-heading {
 
 }
 
-/*laptop or desktop*/
-
+/*laptop or desktop
 @media only screen and (min-width: 961px) {
-
-	
-
 }
+*/
